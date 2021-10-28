@@ -11,6 +11,8 @@
 		74AA172B2729E8A700580655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA172A2729E8A700580655 /* ContentView.swift */; };
 		74AA172D2729E8AB00580655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA172C2729E8AB00580655 /* Assets.xcassets */; };
 		74AA17302729E8AB00580655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA172F2729E8AB00580655 /* Preview Assets.xcassets */; };
+		74AA17372729EAD500580655 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA17362729EAD500580655 /* CircleView.swift */; };
+		74C924A4272B03DB009832F0 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C924A3272B03DB009832F0 /* StartButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		74AA172A2729E8A700580655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74AA172C2729E8AB00580655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AA172F2729E8AB00580655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74AA17362729EAD500580655 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		74C924A3272B03DB009832F0 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				74AA17282729E8A700580655 /* TrafficLight_SwiftUIApp.swift */,
 				74AA172A2729E8A700580655 /* ContentView.swift */,
+				74C924A3272B03DB009832F0 /* StartButton.swift */,
+				74AA17362729EAD500580655 /* CircleView.swift */,
 				74AA172C2729E8AB00580655 /* Assets.xcassets */,
 				74AA172E2729E8AB00580655 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AA17372729EAD500580655 /* CircleView.swift in Sources */,
 				74AA172B2729E8A700580655 /* ContentView.swift in Sources */,
+				74C924A4272B03DB009832F0 /* StartButton.swift in Sources */,
 				74AA17292729E8A700580655 /* TrafficLight_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +294,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
